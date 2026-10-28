@@ -1,0 +1,128 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ================================
+# DEPENDENCIES
+# ================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ================================
+# ENVIRONMENT VARIABLES
+# ================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ================================
+# BUILD OUTPUTS
+# ================================
+/dist
+/build
+/.vite
+/.svelte-kit
+
+# ================================
+# RUNTIME FILES
+# ================================
+*.tgz
+*.tar.gz
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# ================================
+# COVERAGE REPORTS
+# ================================
+coverage/
+.nyc_output/
+*.lcov
+
+# ================================
+# LOGS
+# ================================
+logs
+*.log
+
+# ================================
+# OS GENERATED FILES
+# ================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ================================
+# IDE FILES
+# ================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ================================
+# EDITOR FILES
+# ================================
+# Visual Studio Code
+.vscode/*
+!.vscode/extensions.json
+.terraform/
+
+# ================================
+# SERVER SPECIFIC
+# ================================
+# Database files (if using SQLite)
+*.sqlite
+*.db
+
+# ================================
+# REACT BUILD FILES
+# ================================
+/.eslintcache
+
+# ================================
+# TEST FILES
+# ===============================/
+.mocha
+.mocharc.js
+
+# ================================
+# MISC
+# ================================
+.cache/
+.parcel-cache/
+.serverless/
+.fusebox/
+.dynamodb/
+.tern-port
